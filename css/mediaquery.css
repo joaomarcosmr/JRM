@@ -1,0 +1,7 @@
+@media screen and (max-width: 768px) {
+    /*navbar*/
+    #logo-top-header{
+        width: 100px;
+        margin-left: 0px;
+    }
+}

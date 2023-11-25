@@ -1,0 +1,307 @@
+.container-fluid{
+    padding: 0px;
+}
+
+h3{
+    color: aqua;
+}
+
+/*navbar*/
+
+#navbar-top-header{
+    background-color: #23193100;
+    height: 100px;
+    border-bottom: 1px solid rgba(233, 222, 222, 0.295);
+}
+
+#logo-top-header{
+    width: 100px;
+    margin-left: 100px;
+}
+
+.navbar-toggler{
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+#content-ul{
+    margin-right: 100px;
+}
+
+/* banner principal */
+
+#main-banner{
+    height: 800px;
+    background-image: url(/img/imagem-teste.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center right;
+    position: relative;
+}
+
+.main-content{
+    width: 70vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+}
+
+.main-content h1{
+    font-size: 3em;
+    color: white;
+}
+
+.main-content p{
+    color: azure;
+}
+
+.main-content a{
+    font-size: 1vw;
+    padding: 20px;
+}
+
+/* card session */
+
+.card{
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+    margin: 20px;
+    padding: 15px;
+}
+
+div#about .cards-about{
+    position: relative;
+    margin-top: -134px;
+    margin-bottom: 3em;
+}
+
+/* info site */
+
+#info-site .row{
+    margin-top: 100px;
+    height: 400px;
+}
+
+#col-info-site h2{
+    margin-left: 40px;
+    color: #231931;
+}
+
+#col-info-site p{
+    margin-left: 40px;
+}
+
+#notebook-img{
+    position: relative;
+    width: 700px;
+    bottom: 45px;
+    left: 40px;
+}
+
+/*why-us-info*/
+
+#why-us-content{
+    background-color: #231931; 
+    height: 700px;
+}
+
+#why-us-info{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.font-size-h3{
+    font-size: 40px;
+}
+
+.font-p-row{
+    margin: 0px 0px 5px 0px;
+}
+
+.box{
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+hr{
+    color: rgb(255, 193, 7);
+    opacity: 80%;
+    margin: 0px 0px 10px 0px;
+    width: 10%;
+}
+
+.text-number-info{
+    margin-bottom: 5px;
+}
+
+
+#img-why-us{
+    background-image: url(/img/foto-notebook.jpeg);
+    background-position: bottom center;
+    background-size: cover;
+    border-radius: 20px;
+    box-shadow: 1px 0px 10px rgba(0, 0, 0, 0.425);
+    height: 100%;
+    margin-top: -5px;
+}
+
+
+
+/* testimonials */
+
+#testimonials{
+    height: 600px;
+    padding: 20px;
+    display: flex;
+    align-items: flex-start;
+    margin-top: 50px;
+}
+
+.testimonial{
+    height: 100%;
+    background-color: #231931;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+
+/* contact us whatsapp*/
+
+#contact-us{
+    background-image: url(/img/background-cinza.png);
+    background-position: center bottom;
+    background-size: cover;
+    height: 700px;
+}
+
+#container-contact-us{
+    height: 0px;
+}
+
+.whats{
+    position: relative;
+    height: 300px;
+    bottom: 200px;
+    background-color: #231931;
+    border-top-right-radius: 80px;
+    border-top-left-radius: 80px;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+    border: 1px solid rgba(255, 255, 255, 0.247);
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+
+.whatsapp{
+    height: 250px;
+    display: flex;
+}
+
+.whatsapp > .col-md-8{
+    color: white;
+    padding: 25px;
+    position: relative;
+    top: 45px;
+    left: 100px;
+}
+
+.btnWhatsapp{
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+    background-color: green;
+    color: white;
+    margin-top: 5px;
+}
+
+.btnWhatsapp:hover{
+    background-color: green;
+}
+
+.col-md-8 a{
+    font-size: 1.5em;
+    padding: 12px;
+    margin-left: 10px;
+}
+
+.imgWhatsApp{
+    position: relative;
+    bottom: 20px;
+    width: 500px;
+}
+
+.textWhatsApp{
+    margin-left: 10px;
+}
+
+/* contact-us form*/
+
+.form{
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+}
+
+.img-contact{
+    background-image: url(/img/imagem-teste.png);
+    background-position: center center;
+    background-position: cover;
+    border-right: 10px solid rgba(0, 0, 0, 0.24);
+}
+
+.text-form{
+    margin-left: 15px;
+    width: 90%;
+    color: white;
+}
+
+form .form-input{
+    margin-top: 15px;
+    height: 50px;
+    width: 90%;
+    margin-left: 15px;
+    border: 2px solid #565656;
+    color: white;
+    background-color: transparent;
+    appearance: none;
+}
+
+form .form-input::placeholder{
+    color: rgb(206, 203, 203);
+}
+
+form #textArea::placeholder{
+    color: rgb(206, 203, 203);
+}
+
+
+form textarea{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.form-content{
+    position: relative;
+    top: 120px;
+    margin-top: 20px;
+}
+
+#textArea{
+    border: 2px solid #565656;
+    color: white;
+    background-color: transparent;
+    margin-left: 15px;
+    width: 90%;
+}
+
+.btn{
+    color: white;
+    border: 1px solid white;
+    margin-left: 15px;
+}
+
+/*footer*/
+
+#footer-session{
+    height: 300px;
+    background-color: #505050;
+}
