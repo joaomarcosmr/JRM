@@ -302,6 +302,14 @@ form textarea{
 /*footer*/
 
 #footer-session{
-    height: 300px;
+    height: auto;
     background-color: #505050;
+}
+
+#logo{
+    width: 100px;
+}
+
+.frase{
+    color: white;
 }
