@@ -1,7 +1,134 @@
+@charset "UTF-8";
+
+@media (min-width: 1400px){
+    #main-banner{
+        width: 100%;
+    }
+}
+
+@media (max-width: 1400px){
+    .whatsapp > .col-md-8{
+        top: 30px;
+    }
+}
+
+@media (max-width: 1200px){
+    .whatsapp > .col-md-8{
+        top: 20px;
+    }
+}
+
+@media (max-width: 992px){
+
+    /* contact us whatsapp*/
+    
+    .imgWhatsApp{
+        position: relative;
+        top: 15px;
+        width: 400px;
+    }
+
+    .whatsapp > .col-md-8{
+        top: 0px;
+    }
+}
+
 @media screen and (max-width: 768px) {
     /*navbar*/
     #logo-top-header{
         width: 100px;
         margin-left: 0px;
     }
+
+    .margin-box{
+        margin-bottom: 15px;
+    }
+
+    /* contact-us form*/
+
+    .row-form{
+        height: 900px;
+    }
+
+    /* contact us whatsapp*/
+
+    #container-contact-us{
+        height: 100px;
+    }
+
+    .whats{
+        position: relative;
+        height: auto;
+        bottom: 200px;
+        background-color: #231931;
+        border-top-right-radius: 80px;
+        border-top-left-radius: 80px;
+        border-bottom-left-radius: 80px;
+        border-bottom-right-radius: 80px;
+        border: 1px solid rgba(255, 255, 255, 0.247);
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+    }
+
+    .whatsapp{
+        height: auto;
+        display: flex;
+    }
+
+    .whatsapp > .col-md-8{
+        color: white;
+        padding: 25px;
+        position: relative;
+        top: 15px;
+        left: 100px;
+    }
+
+    .btnWhatsapp{
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+        background-color: green;
+        color: white;
+        margin-top: 5px;
+        margin-bottom: 30px;
+        width: 60%;
+    }
+
+    .btnWhatsapp:hover{
+        background-color: green;
+    }
+
+    .col-md-8 a{
+        font-size: 1.5em;
+        padding: 12px;
+    }
+
+    .imgWhatsApp{
+        position: relative;
+        left: 60px;
+        width: 400px;
+        margin-bottom: -15px;
+    }
+
+    .textWhatsApp{
+        text-align: center;
+    }
+
+    #contact-us{
+        background-image: url(/img/background-cinza.png);
+        background-position: right bottom;
+        background-size: cover;
+        height: auto;
+    }
+}
+
+@media (max-width: 576px){
+    .imgWhatsApp{
+        position: relative;
+        left: 50px;
+        width: 400px;
+        margin-bottom: -15px;
+    }
+
+}
+
+@media (max-width: 470px){
+
 }

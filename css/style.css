@@ -1,5 +1,19 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+main{
+    overflow: hidden;
+}
+
 .container-fluid{
     padding: 0px;
+
+}
+
+.icon{
+    width: 40px;
 }
 
 h3{
@@ -57,7 +71,7 @@ h3{
 }
 
 .main-content a{
-    font-size: 1vw;
+    font-size: 14px;
     padding: 20px;
 }
 
@@ -79,7 +93,7 @@ div#about .cards-about{
 
 #info-site .row{
     margin-top: 100px;
-    height: 400px;
+    height: auto;
 }
 
 #col-info-site h2{
@@ -102,7 +116,9 @@ div#about .cards-about{
 
 #why-us-content{
     background-color: #231931; 
-    height: 700px;
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 #why-us-info{
@@ -153,11 +169,12 @@ hr{
 /* testimonials */
 
 #testimonials{
-    height: 600px;
+    height: auto;
     padding: 20px;
     display: flex;
     align-items: flex-start;
     margin-top: 50px;
+    margin-bottom: 300px;
 }
 
 .testimonial{
@@ -167,13 +184,15 @@ hr{
     box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
 }
 
+.blank{}
+
 /* contact us whatsapp*/
 
 #contact-us{
     background-image: url(/img/background-cinza.png);
     background-position: center bottom;
     background-size: cover;
-    height: 700px;
+    height: auto;
 }
 
 #container-contact-us{
@@ -182,7 +201,7 @@ hr{
 
 .whats{
     position: relative;
-    height: 300px;
+    height: auto;
     bottom: 200px;
     background-color: #231931;
     border-top-right-radius: 80px;
@@ -194,7 +213,7 @@ hr{
 }
 
 .whatsapp{
-    height: 250px;
+    height: auto;
     display: flex;
 }
 
@@ -202,7 +221,7 @@ hr{
     color: white;
     padding: 25px;
     position: relative;
-    top: 45px;
+    top: 60px;
     left: 100px;
 }
 
@@ -211,6 +230,7 @@ hr{
     background-color: green;
     color: white;
     margin-top: 5px;
+    width: 60%;
 }
 
 .btnWhatsapp:hover{
@@ -225,20 +245,19 @@ hr{
 
 .imgWhatsApp{
     position: relative;
-    bottom: 20px;
     width: 500px;
 }
 
 .textWhatsApp{
+    width: 60%;
     margin-left: 10px;
 }
 
 /* contact-us form*/
 
-.form{
-    height: 100%;
+.row-form{
+    height: 700px;
     width: 100%;
-    margin: 0px;
 }
 
 .img-contact{
@@ -308,6 +327,11 @@ form textarea{
 
 #logo{
     width: 100px;
+}
+
+.social-btn{
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .frase{
