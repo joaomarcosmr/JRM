@@ -20,6 +20,11 @@ h3{
     color: aqua;
 }
 
+.img{
+    width: 300px;
+    height: 200px;
+}
+
 /*navbar*/
 
 #navbar-top-header{
