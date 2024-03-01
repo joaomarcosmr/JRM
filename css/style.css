@@ -22,6 +22,21 @@ h3{
 
 /*navbar*/
 
+.navbarBottom-active{
+    color: bold;
+    height: 120px !important;
+    background-color: transparent !important;
+    box-shadow: rgba(230, 230, 230, 0.24) 0px 1px 5px;
+}
+
+#navbarBottom{
+    margin-top: -1px;
+    background-color: rgb(46, 46, 46);
+    border-bottom: 2px solid rgba(219, 219, 219, 0.432);
+    height: 80px;
+    transition: all 0.1s ease-in-out;
+}
+
 .navbar-top-header{
     margin-left: -100px;
     background-color: #23193100;
