@@ -42,6 +42,10 @@ h3{
     margin-right: 100px;
 }
 
+.nav-item a{
+    color: white;
+}
+
 /* banner principal */
 
 #main-banner{
