@@ -31,6 +31,21 @@
     .whatsapp > .col-md-8{
         top: 0px;
     }
+
+    
+    #navbarTogglerDemo02{
+        background-color: rgba(0, 0, 0, 0.61);
+        border: solid 1px rgb(163, 163, 163);
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        padding: 9px;
+        margin-top: -9px;
+        margin-left: 125px;
+    }
+
+    #navbarTogglerDemo02 ul{
+        margin-left: 25px;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -131,6 +146,21 @@
 
     .whatsapp > .col-md-8{
         left: 90px;
+    }
+
+        
+    #navbarTogglerDemo02{
+        background-color: rgba(0, 0, 0, 0.61);
+        border: solid 1px rgb(163, 163, 163);
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        padding: 9px;
+        margin-top: -9px;
+        margin-left: 100px;
+    }
+
+    #navbarTogglerDemo02 ul{
+        margin-left: 0px;
     }
 
 }
