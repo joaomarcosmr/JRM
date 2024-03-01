@@ -21,22 +21,36 @@
 <body>
     <!--Navbar-->
     <header class="container-fluid fixed-top">
-        <nav class="navbar navbar-expand-md" id="navbar-top-header">
-            <div class="col-12 col-md-2 logo text-center text-md-start" id="container-logo-header">
-                <img src="img/logo-transparente.png" alt="" class="img-fluid" id="logo-top-header">
-            </div>
-            <div class="col-12 col-md-10" id="container-content-header">
-                <ul class="navbar-nav justify-content-end align-content-center" id="content-ul">
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="#why-us-content">Sobre Nós</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="#contact-us">Contato</a>
-                    </li>
+        <nav class="navbar navbar-expand-lg d-flex align-items-center navbar-top-header" id="navbarBottom">
+            <div class="container container-nav">
+              <a href="https://jrmtecnologia.com">
+                <img src="img/logo-transparente.png" alt="" class="img logo-top-header">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span><i class="fa-solid fa-bars" style="color: #ffffff;"></i></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo02">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#inicio">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#products">Produtos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#sobre-nos">Sobre Nós</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#youtube">Youtube</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#resultados">Resultados</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contate-nos">Contate-nos</a>
+                  </li>
                 </ul>
+              </div>
             </div>
         </nav>
     </header>
@@ -145,19 +159,27 @@
         <section class="container-fluid" id="testimonials">
             <div class="container" id="testimonialGrid">
                 <div class="row rowTestimonials">
-                    <div class="col-12 col-md-4">
+                    <div class="col-12 col-lg-4">
                         <div class="box">
                             <p>O QUE NOSSOS CLIENTES FALAM:</p>
                             <h3>Os nossos clientes estão decolando</h3>
                             <p>Veja alguma das empresas que já acreditaram no nosso trabalho e estão decolando.</p>
                         </div>
                     </div>
-                    <div class="col-12 col-md-8 margin-box">
-                        <div class="box testimonial box-testimonial d-flex">
-                            <img src="img/jialong.png" alt="" class="img">
-                            <img src="img/jnburger.png" alt="" class="img">
-                            <img src="img/santoburger.png" alt="" class="img">
-                            <img src="img/michelleprado.png" alt="" class="img">
+                    <div class="col-12 col-lg-8 margin-box">
+                        <div class="row box testimonial box-testimonial">
+                            <div class="col-lg-3 d-flex justify-content-center">
+                                <img src="img/jialong.png" alt="" class="img img-fluid">
+                            </div>
+                            <div class="col-lg-3 d-flex justify-content-center">
+                                <img src="img/jnburger.png" alt="" class="img img-fluid">
+                            </div>
+                            <div class="col-lg-3 d-flex justify-content-center">
+                                <img src="img/santoburger.png" alt="" class="img img-fluid">
+                            </div>
+                            <div class="col-lg-3 d-flex justify-content-center">
+                                <img src="img/michelleprado.png" alt="" class="img img-fluid">
+                            </div>
                         </div>
                     </div>
                 </div>

@@ -121,14 +121,16 @@
 
 @media (max-width: 576px){
     .imgWhatsApp{
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
         position: relative;
-        left: 30px;
         width: 400px;
         margin-bottom: -15px;
     }
 
     .whatsapp > .col-md-8{
-        left: 80px;
+        left: 90px;
     }
 
 }
