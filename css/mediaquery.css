@@ -39,12 +39,27 @@
         border-bottom-left-radius: 10px;
         border-bottom-right-radius: 10px;
         padding: 9px;
-        margin-top: -9px;
+        margin-top: 3px;
         margin-left: 125px;
     }
 
     #navbarTogglerDemo02 ul{
         margin-left: 25px;
+    }
+
+    .navbarBottom-active{
+        padding-top: 15px;
+        color: bold;
+        background-color: transparent !important;
+        box-shadow: rgba(230, 230, 230, 0.24) 0px 1px 5px;
+    }
+    
+    #navbarBottom{
+        padding-top: 15px;
+        background-color: #172C63;
+        border-bottom: 2px solid rgba(219, 219, 219, 0.432);
+        height: 120px;
+        transition: all 0.1s ease-in-out;
     }
 }
 
@@ -132,6 +147,7 @@
         background-size: cover;
         height: auto;
     }
+    
 }
 
 @media (max-width: 576px){
@@ -155,7 +171,7 @@
         border-bottom-left-radius: 10px;
         border-bottom-right-radius: 10px;
         padding: 9px;
-        margin-top: -9px;
+        margin-top: 4px;
         margin-left: 100px;
     }
 

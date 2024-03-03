@@ -32,22 +32,16 @@
               <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo02">
                 <ul class="navbar-nav">
                   <li class="nav-item">
-                    <a class="nav-link" href="#inicio">Home</a>
+                    <a class="nav-link" href="#">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#products">Produtos</a>
+                    <a class="nav-link" href="#why-us-content">Sobre Nós</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#sobre-nos">Sobre Nós</a>
+                    <a class="nav-link" href="#testimonials">Resultados</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#youtube">Youtube</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#resultados">Resultados</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#contate-nos">Contate-nos</a>
+                    <a class="nav-link" href="#contact-us">Contate-nos</a>
                   </li>
                 </ul>
               </div>
@@ -63,7 +57,7 @@
             <div class="main-content">
                 <h1 class="text-center">Sua Marca, no Ar.</h1>
                 <p class="text-center">Desenvolvimento de sites e impulsionamento digital.</p>
-                <p class="text-center my-3"><a href="#contact-us" class="btn btn-outline-info">Descubra Mais</a></p>
+                <p class="text-center my-3"><a href="#testimonials" class="btn btn-outline-info">Descubra Mais</a></p>
             </div>
         </div>
         <!--Fim Banner Conteúdo-->
@@ -212,11 +206,13 @@
                     <div class="">
                         <h3 class="text-form">Manda uma mensagem pra gente!</h3>
                         <p class="text-form">Se preferir, envie um e-mail para gente preenchendo os dados abaixo e entraremos em contato.</p>
-                        <form action="#" method="post">
-                            <input type="text" class="form-control form-input" name="nome" id="name-input" placeholder="Nome" required>
-                            <input type="email" class="form-control form-input" name="nome" id="email-input" placeholder="Seu e-mail" requires>
-                            <input type="tel" class="form-control form-input" name="nome" id="tel-input" placeholder="Telefone" requires>
-                            <textarea class="form-control" id="textArea" rows="4" placeholder="Digite sua mensagem"></textarea>
+                        <form action="https://formsubmit.co/ajax/joaomarcosmr4@gmail.com" method="POST" data-form>
+                            <input type="text" class="form-control form-input" name="name" id="name-input" placeholder="Nome" required>
+                            <input type="email" class="form-control form-input" name="email" id="email-input" placeholder="Seu e-mail" requires>
+                            <input type="tel" class="form-control form-input" name="tel" id="tel-input" placeholder="Telefone" requires>
+                            <div id="divText">
+                                <textarea class="form-control" id="textArea" rows="4" placeholder="Digite sua mensagem"></textarea>
+                            </div>
                             <input class="btn" type="submit" value="Enviar">
                         </form>
                     </div>
